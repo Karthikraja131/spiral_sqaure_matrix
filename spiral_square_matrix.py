@@ -1,6 +1,4 @@
-
-from typing import TextIO
-
+# Spiral Square Matrix
 def spiral_matirx(n):
   matrix = [ [0]*n for _ in range(n)]
   top = left = 0
